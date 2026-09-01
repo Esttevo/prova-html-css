@@ -245,13 +245,9 @@ header {
 
 #section-modern h2 {
     color: var(--primary-tittle-font-color);
-    padding-left: 1rem;
-    padding-right: 1rem;
     padding-top: 4.5rem;
     border-top: 1px solid var(--color-spacing);
-    font-size: clamp(28px, 5vw, 48px);
-    text-align: center;
-    line-height: 130%;
+    font-size: clamp(28px, 5vw);
 }
 
 .modern-content-img-text {
@@ -267,12 +263,11 @@ header {
     color: var(--primary-tittle-font-color);
     padding-top: 1.8rem;
     padding-bottom: 14px;
-    font-size: clamp(22px, 2vw, 24px);
 }
 
 .modern-content-img-text p {
     color: var(--primary-tittle-font-color);
-   font-size: clamp(14px, 2vw, 16px);
+   font-size: clamp(14px, 1.5vw, 16px);
     line-height: 170%;
     text-align: center;
 }

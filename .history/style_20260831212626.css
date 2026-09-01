@@ -239,40 +239,12 @@ header {
 
 #section-modern {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 0 clamp(1.25rem, 6vw, 9rem);
 }
 
 #section-modern h2 {
     color: var(--primary-tittle-font-color);
-    padding-left: 1rem;
-    padding-right: 1rem;
     padding-top: 4.5rem;
-    border-top: 1px solid var(--color-spacing);
-    font-size: clamp(28px, 5vw, 48px);
-    text-align: center;
-    line-height: 130%;
-}
-
-.modern-content-img-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding-top: 3.5rem;
-}
-
-.modern-content-img-text h3 {
-    color: var(--primary-tittle-font-color);
-    padding-top: 1.8rem;
-    padding-bottom: 14px;
-    font-size: clamp(22px, 2vw, 24px);
-}
-
-.modern-content-img-text p {
-    color: var(--primary-tittle-font-color);
-   font-size: clamp(14px, 2vw, 16px);
-    line-height: 170%;
-    text-align: center;
+    
 }
