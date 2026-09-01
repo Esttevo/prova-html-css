@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-background-color: #FFFFFF;
+
+    --primary-color: #1565D8;
+
+    --primary-tittle-font-color: #183B56;
+
+    --primary-subtittle-font-color: #5A7184;
+
+    --primary-font-family: "Inter", sans-serif;
+    --secundary-font-family: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--secundary-font-family);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+
+}
+
+#header-nav {
+    display: none;
+}
+
+#bar-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 7rem;
+}
+
+.estilization-bar {
+    background-color: #344563;;
+    width: 14px;
+    height: 2px;
+}
+
+#bar-text h4 {
+    font-size: clamp(14px, 1vw, 30px);
+    text-align: center;
+    line-height: 150%;
+}
+
