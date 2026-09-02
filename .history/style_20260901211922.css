@@ -107,6 +107,7 @@ header {
 #section-hero #button {
     background-color: var(--primary-color);
     border: none;
+    font-size: ;
     color: #FFFFFF;
     border-radius: 0.5rem;
     padding: 0.5rem 0;
