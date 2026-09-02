@@ -596,12 +596,12 @@ footer p {
 @media(min-width: 792px) {
     #health-image-desktop {
         
-        min-width: clamp(600px, 50vw, 600px);
+        min-width: clamp(580px, 50vw, 600px);
           
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 1008px) {
     #section-health {
         display: grid;
         grid-template-columns: 1fr 2fr;
